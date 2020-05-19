@@ -107,12 +107,11 @@
                 <configuration>
                     <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
                     <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
-<!--                    <excludes>-->
-<!--                        <exclude>com/digitalacademy/loan/Application*</exclude>-->
-<!--                        <exclude>com/digitalacademy/loan/interceptor/**</exclude>-->
-<!--                        <exclude>com/digitalacademy/loan/model/**</exclude>-->
-<!--                        <exclude>com/digitalacademy/loan/constants/**</exclude>-->
-<!--                    </excludes>-->
+                    <excludes>
+                        <exclude>com/digitalacademy/Application*</exclude>
+                        <exclude>com/digitalacademy/model/**</exclude>
+                        <exclude>com/digitalacademy/loan/constants/**</exclude>
+                    </excludes>
                 </configuration>
                 <executions>
                     <execution>
