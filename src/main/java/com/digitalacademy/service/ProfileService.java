@@ -23,7 +23,7 @@ public class ProfileService {
 
         if (id.equals(7L)){
             return profile;
-        }else if (id.equals(2L)){
+        }else if (id.equals(1L)){
             profile = new Profile();
             profile.setId(1L);
             return profile;
